@@ -27,17 +27,11 @@ Inputfile:
   
 ## How To run:
 
-#### To run the restaurant server you have to import the database from udacity
+#### To run the SPark server you will have to run below command on your terminal at project folder
 ``` bash 
-#build sqlalchemy database setup
-python database_setup.py
-
-#import data
-python lotsofmenu.py
-
 # run the server
-python webserver-restaurant.py
+python SPark-server/manage.py runserver
 ``` 
-The website will run in port 5000: <br/>
- localhost:5000/restaurants
+The website will run in port 8080: <br/>
+ localhost:8080/
 
