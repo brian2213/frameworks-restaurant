@@ -25,10 +25,7 @@ Inputfile:
   - **database_setup.py**: Restaurant database sqlalchemy schema 
   - **lotsofmenu.py**: Restaurant database from Udacity, I modify it to python 3 version
   
-## How To run:
-
-#### To run the restaurant server you have to import the database from udacity
-``` bash 
+To run the restaurant server you have to import the database from udacity
 #build sqlalchemy database setup
 python database_setup.py
 
@@ -37,7 +34,6 @@ python lotsofmenu.py
 
 # run the server
 python webserver-restaurant.py
-``` 
-The website will run in port 5000: <br/>
- localhost:5000/restaurants
+The website will run in port 5000: 
+localhost:5000/restaurants
 
